@@ -1,0 +1,14 @@
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: absolute;
+}
+
