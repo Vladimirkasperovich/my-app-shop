@@ -1,14 +1,14 @@
-
-import { Header } from './components/Header/Header.tsx';
-// import { useGetAllProductsQuery } from './services/fakeStoreApi/fakeStore.api.ts';
+import Layout from './modules/Layout.tsx';
+import { ProductsWrapper } from './components/ProductsWrapper/ProductsWrapper.tsx';
 
 
 function App() {
-// const {data} = useGetAllProductsQuery()
   return (
     <>
       <div>
-        <Header />
+        <Layout>
+         <ProductsWrapper/>
+        </Layout>
       </div>
     </>
   );
