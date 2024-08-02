@@ -4,20 +4,22 @@
   background-color: #213547;
   color: #ffffff;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0 55px;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 
-  .user {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    min-width: 300px;
-  }
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 300px;
+}
 
-  .burger {
-    display: flex;
-    align-items: center;
-  }
+.burger {
+  cursor: pointer;
+  align-items: center;
+  margin-left: 40px;
+
 }
